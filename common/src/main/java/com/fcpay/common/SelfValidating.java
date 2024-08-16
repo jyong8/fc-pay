@@ -1,4 +1,4 @@
-package common;
+package com.fcpay.common;
 
 import javax.validation.*;
 import java.util.Set;

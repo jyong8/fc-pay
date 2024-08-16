@@ -1,6 +1,7 @@
 package com.fcpay.membership.application.port.in;
 
-import common.UseCase;
+
+import com.fcpay.common.UseCase;
 import com.fcpay.membership.domain.Membership;
 
 @UseCase

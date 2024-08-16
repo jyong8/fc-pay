@@ -1,7 +1,7 @@
 package com.fcpay.membership.application.port.in;
 
 import com.fcpay.membership.domain.Membership;
-import common.UseCase;
+import com.fcpay.common.UseCase;
 
 @UseCase
 public interface FindMembershipUseCase {

@@ -2,7 +2,7 @@ package com.fcpay.membership.adapter.in.web;
 
 import com.fcpay.membership.application.port.in.RegisterMembershipCommand;
 import com.fcpay.membership.application.port.in.RegisterMembershipUseCase;
-import common.WebAdapter;
+import com.fcpay.common.WebAdapter;
 import com.fcpay.membership.domain.Membership;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

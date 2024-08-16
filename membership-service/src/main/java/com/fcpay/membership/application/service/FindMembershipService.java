@@ -6,7 +6,7 @@ import com.fcpay.membership.application.port.in.FindMembershipCommand;
 import com.fcpay.membership.application.port.in.FindMembershipUseCase;
 import com.fcpay.membership.application.port.out.FindMembershipPort;
 import com.fcpay.membership.domain.Membership;
-import common.UseCase;
+import com.fcpay.common.UseCase;
 import lombok.RequiredArgsConstructor;
 
 import javax.transaction.Transactional;
