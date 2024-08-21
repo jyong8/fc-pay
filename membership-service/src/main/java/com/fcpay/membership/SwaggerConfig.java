@@ -1,4 +1,4 @@
-package com.fcpay.membership.domain;
+package com.fcpay.membership;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
