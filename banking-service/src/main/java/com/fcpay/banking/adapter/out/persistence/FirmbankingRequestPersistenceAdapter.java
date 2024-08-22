@@ -15,7 +15,6 @@ import java.util.UUID;
 public class FirmbankingRequestPersistenceAdapter implements RequestFirmbankingPort {
 
     private final SpringDataFirmbankingRequestRepository repository;
-    private final SpringDataFirmbankingRequestRepository springDataFirmbankingRequestRepository;
 
     @Override
     public FirmbankingRequestJpaEntity createFirmbankingRequest(FirmbankingRequest.FromBankName fromBankName, FirmbankingRequest.FromBankAccountNumber fromBankAccountNumber, FirmbankingRequest.ToBankName toBankName, FirmbankingRequest.ToBankAccountNumber toBankAccountNumber, FirmbankingRequest.MoneyAmount moneyAmount, FirmbankingRequest.FirmbankingStatus firmbankingStatus) {
@@ -36,7 +35,7 @@ public class FirmbankingRequestPersistenceAdapter implements RequestFirmbankingP
 
     @Override
     public FirmbankingRequestJpaEntity modifyFirmbankingRequest(FirmbankingRequestJpaEntity entity) {
-        return springDataFirmbankingRequestRepository.save(entity);
+        return repository.save(entity);
     }
 
 }
